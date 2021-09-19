@@ -11,6 +11,7 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
+fixtures = ["Custom Field", "Client Script", "Print Format"]
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/tti/css/tti.css"
