@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Assessment Result",
+  "enabled": 1,
+  "modified": "2018-07-09 03:46:54.286719",
+  "name": "Assessment Result-Client",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on(\"Assessment Result Detail\", \n{\n  raw_marks: function(frm, cdt, cdn) \n   {\n     var d = locals[cdt][cdn];\n     frappe.model.set_value(d.doctype, d.name, \"score\",            \n     ((d.raw_marks/d.maximum_raw_marks)*d.maximum_score))\n    }\n});",
+  "view": "Form"
+ }
+]

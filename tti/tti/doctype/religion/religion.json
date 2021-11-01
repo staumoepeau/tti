@@ -13,12 +13,18 @@
   {
    "fieldname": "religion_name",
    "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Religion",
    "unique": 1
   },
   {
    "fieldname": "abbr",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_global_search": 1,
    "in_list_view": 1,
    "in_preview": 1,
@@ -28,7 +34,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-22 08:42:32.794014",
+ "modified": "2021-11-01 07:20:40.781347",
  "modified_by": "Administrator",
  "module": "TTI",
  "name": "Religion",
