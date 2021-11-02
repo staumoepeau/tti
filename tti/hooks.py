@@ -166,6 +166,7 @@ user_data_fields = [
 		"doctype": "{doctype_4}"
 	}
 ]
+# after_migrate = "tti.api.get_app_name"
 
 # Authentication and authorization
 # --------------------------------
