@@ -6,10 +6,32 @@ from __future__ import unicode_literals
 import math
 import frappe
 from frappe import _
-from frappe.utils import cstr, formatdate, cint, getdate, date_diff, add_days, time_diff_in_hours, rounded, now
+from frappe.utils import cstr
 
 
-def get_app_name():
-    frappe.db.set_value('System Settings', 'System Settings', 'app_logo','/files/TTI_Logo.png')
-    frappe.db.set_value('System Settings', 'System Settings', 'app_name', 'TTI MIS')
+#@frappe.whitelist(allow_guest=True)
+def get_permission_query_conditions_for_student(user):
+    if not user: user = frappe.session.user
+    
+    if user == "Administrator":
+        return ""
+    else:
+        return """(`tabStudent`.user = '{user}')""" .format(user=user)
 
+
+def has_permission(user):
+    if not user: user = frappe.session.user
+    if (user != "Administrator"):
+        # dont allow non Administrator user to view / edit Administrator user
+        return True
+
+
+def get_permission_query_conditions_for_program_enrollment(user):
+
+    if not user: user = frappe.session.user 
+    
+    if user == "Administrator":
+        return ""
+    else:
+        user = frappe.db.get_value("Student",{"user": frappe.session.user},"name")
+        return """(`tabProgram Enrollment`.student = '{user}')""" .format(user=user)

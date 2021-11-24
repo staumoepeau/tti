@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "creation": "2021-11-11 04:55:13.859171",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school",
+  "final_year",
+  "level_of_study"
+ ],
+ "fields": [
+  {
+   "fieldname": "school",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "School",
+   "oldfieldname": "school_univ",
+   "oldfieldtype": "Small Text",
+   "width": "20"
+  },
+  {
+   "fieldname": "level_of_study",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Level",
+   "options": "\nF5\nF6\nF7"
+  },
+  {
+   "fieldname": "final_year",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Your Final Year at Seconday School?",
+   "length": 5,
+   "oldfieldname": "year_of_passing",
+   "oldfieldtype": "Int"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2021-11-11 05:34:32.499934",
+ "modified_by": "Administrator",
+ "module": "TTI",
+ "name": "Student Secondary Education",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
