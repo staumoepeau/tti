@@ -78,18 +78,18 @@ fixtures = ["Custom Field", "Client Script", "Print Format"]
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
-permission_query_conditions = {
-	"Student": "tti.api.get_permission_query_conditions_for_student",
-	"Program Enrollment": "tti.api.get_permission_query_conditions_for_program_enrollment",
+#permission_query_conditions = {
+#	"Student": "tti.api.get_permission_query_conditions_for_student",
+#	"Program Enrollment": "tti.api.get_permission_query_conditions_for_program_enrollment",
 #    "Bank Employee": "acps.acps.doctype.bank_employee.bank_employee.get_permission_query_conditions_for_bank_employee"
-}
+#}
 
 #
-has_permission = {
- 	"Student": "tti.api.has_permission",
-	 "Program Enrollment":  "tti.api.has_permission",
+#has_permission = {
+# 	"Student": "tti.api.has_permission",
+#	 "Program Enrollment":  "tti.api.has_permission",
 # 	"Bank Employee": "acps.acps.doctype.bank_employee.bank_employee.has_permission",
-}
+#}
 
 
 

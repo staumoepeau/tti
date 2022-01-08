@@ -7,6 +7,10 @@
  "field_order": [
   "guardian_name",
   "relation",
+  "guardian_email",
+  "guardian_mobile",
+  "guardian_work_place",
+  "guardian_address",
   "others"
  ],
  "fields": [
@@ -14,8 +18,7 @@
    "fieldname": "guardian_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Guardian Name",
-   "reqd": 1
+   "label": "Guardian Name"
   },
   {
    "fieldname": "relation",
@@ -31,11 +34,43 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Others"
+  },
+  {
+   "fieldname": "guardian_email",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Guardian Email"
+  },
+  {
+   "fieldname": "guardian_mobile",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Guardian Mobile"
+  },
+  {
+   "fieldname": "guardian_work_place",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Guardian Work Place"
+  },
+  {
+   "fieldname": "guardian_address",
+   "fieldtype": "Data",
+   "label": "Guardian Address"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-11-11 19:19:37.555492",
+ "modified": "2022-01-09 03:28:43.940983",
  "modified_by": "Administrator",
  "module": "TTI",
  "name": "Student Guardians",
