@@ -1,0 +1,276 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-04-08 09:11:45.144923",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "icon": "education",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "FWC Education",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee",
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Branch",
+   "link_to": "Branch",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Department",
+   "link_to": "Department",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Entry",
+   "link_to": "Payroll Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Slip",
+   "link_to": "Salary Slip",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Component",
+   "link_to": "Salary Component",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Structure",
+   "link_to": "Salary Structure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Structure Assignment",
+   "link_to": "Salary Structure Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Eucation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "School Fees",
+   "link_to": "Fees",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student",
+   "link_to": "Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Enrollment",
+   "link_to": "Program Enrollment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Enrollment Tool",
+   "link_to": "Program Enrollment Tool",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budgeting",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Chart of Cost Centers",
+   "link_to": "Cost Center",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget",
+   "link_to": "Budget",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget Variance Report",
+   "link_to": "Budget Variance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monthly Distribution",
+   "link_to": "Monthly Distribution",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-12-08 09:07:41.737045",
+ "modified_by": "Administrator",
+ "module": "FWC Education",
+ "name": "FWC Education",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Sales Order",
+   "link_to": "Sales Order",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Purchase Order",
+   "link_to": "Purchase Order",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Payment",
+   "link_to": "Payment Entry",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FWC Salary Register",
+   "link_to": "FWC Salary Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "FWC Summary Salary Register",
+   "link_to": "Summary Salary Register",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Generate Bank File",
+   "link_to": "Salary Payments via EFT",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "BSP Lodgement Form",
+   "link_to": "Lodgement Form",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Create Payroll",
+   "link_to": "Payroll Entry",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Files",
+   "link_to": "File",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "School Fees",
+   "link_to": "Fees",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "PAYIN",
+   "link_to": "PAYIN",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "PAYE TAX",
+   "link_to": "FWC FORM 7 PAYE",
+   "type": "Report"
+  }
+ ],
+ "shortcuts_label": "FWC Education"
+}

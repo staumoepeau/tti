@@ -3,4 +3,8 @@
 *.egg-info
 *.swp
 tags
+<<<<<<< HEAD
 tti/docs/current
+=======
+fwc_edu/docs/current
+>>>>>>> 4c8ef093c7eb0eb4efece16aa09f7f910d1c0d68

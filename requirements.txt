@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 # frappe -- https://github.com/frappe/frappe is installed via 'bench init'
+=======
+frappe
+>>>>>>> 4c8ef093c7eb0eb4efece16aa09f7f910d1c0d68

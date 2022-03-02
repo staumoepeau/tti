@@ -4,6 +4,7 @@ include *.json
 include *.md
 include *.py
 include *.txt
+<<<<<<< HEAD
 recursive-include tti *.css
 recursive-include tti *.csv
 recursive-include tti *.html
@@ -16,3 +17,17 @@ recursive-include tti *.py
 recursive-include tti *.svg
 recursive-include tti *.txt
 recursive-exclude tti *.pyc
+=======
+recursive-include fwc_edu *.css
+recursive-include fwc_edu *.csv
+recursive-include fwc_edu *.html
+recursive-include fwc_edu *.ico
+recursive-include fwc_edu *.js
+recursive-include fwc_edu *.json
+recursive-include fwc_edu *.md
+recursive-include fwc_edu *.png
+recursive-include fwc_edu *.py
+recursive-include fwc_edu *.svg
+recursive-include fwc_edu *.txt
+recursive-exclude fwc_edu *.pyc
+>>>>>>> 4c8ef093c7eb0eb4efece16aa09f7f910d1c0d68
