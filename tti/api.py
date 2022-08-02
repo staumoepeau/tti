@@ -1,13 +1,25 @@
-# -*- coding: utf-8 -*-
 # Copyright (c) 2021, Sione Taumoepeau and contributors
 # For license information, please see license.txt
+import json
 
-#from __future__ import unicode_literals
-#import math
-#import frappe
-#from frappe import _
-#from frappe.utils import cstr
+import frappe
+from frappe import _
+from frappe.email.doctype.email_group.email_group import add_subscribers
+from frappe.model.mapper import get_mapped_doc
+from frappe.utils import cstr, flt, getdate
 
+@frappe.whitelist()
+def get_assessment_details(assessment_plan):
+	"""Returns Assessment Criteria  and Maximum Score from Assessment Plan Master.
+
+	:param Assessment Plan: Assessment Plan
+	"""
+	return frappe.get_all(
+		"Assessment Plan Criteria",
+		fields=["assessment_criteria", "maximum_score", "raw_marks", "docstatus"],
+		filters={"parent": assessment_plan},
+		order_by="idx",
+	)
 
 #@frappe.whitelist(allow_guest=True)
 #def get_permission_query_conditions_for_student(user):
