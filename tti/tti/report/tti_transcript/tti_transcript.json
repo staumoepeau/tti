@@ -1,0 +1,42 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-12-04 19:55:57.137575",
+ "disable_prepared_report": 1,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "mandatory": 0,
+   "options": "Student",
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "TTI Letter Head",
+ "modified": "2023-12-04 20:29:39.714848",
+ "modified_by": "Administrator",
+ "module": "TTI",
+ "name": "TTI Transcript",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Assessment Result",
+ "report_name": "TTI Transcript",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  },
+  {
+   "role": "Instructor"
+  },
+  {
+   "role": "TTI Program Managers"
+  }
+ ]
+}
